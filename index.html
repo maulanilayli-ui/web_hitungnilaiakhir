@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web menentukan nilai akhir</title>
+</head>
+<body>
+    <h2>Kalkulator Nilai Akhir Siswa</h2>
+    <div class="input-grup">
+        <label for="tugas">Nilai Tugas:</label>
+        <input type="number" id="tugas" min="0" max="100">
+    </div>
+    
+    <div class="input-group">
+        <label for="uts">Nilai UTS:</label>
+        <input type="number" id="uts" min="0" max="100">
+    </div>
+
+    <div class="input-group">
+        <label for="uas">Nilai UAS:</label>
+        <input type="number" id="uas" min="0" max="100">
+    </div>
+    <button onclick="hitungNilai()">Hitung Nilai</button>
+    <p id="hasil"></p>
+    <script src="script.js"></script>
+    
+</body>
+</html>
